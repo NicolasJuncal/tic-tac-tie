@@ -1,9 +1,17 @@
 var crossPositions = [0,1,2,3,4,5,6,7,8];
 var box = document.querySelectorAll('.box');
-var playerCircle = 'O';
-var playerX = 'X';
-var whichPlayer = 0;
+var input1 = document.querySelector('.input1')
+var input2 = document.querySelector('.input2')
+var enter = document.querySelector('.enter')
+var name1 = document.querySelector('.name1')
+var name2 = document.querySelector('.name2') 
+enter.addEventListener('click', getInfo)
+function getInfo(){
+  name1.textContent = input1.value + " 'X' Player";
+  name2.textContent = input2.value + " 'O' Player";
+}
 
+var whichPlayer = 0;
 for (var i = 0; i < box.length; i++){
   box[i].addEventListener('click', playerClick);
 }
