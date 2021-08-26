@@ -4,6 +4,11 @@
 body {
   background-color: mistyrose;
 }
+.wrap-everything {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 17px;
+}
 .wrapper { 
   width: 300px;
   display: grid;
@@ -17,11 +22,13 @@ body {
   border: 1px rgb(255, 182, 174) solid;
   text-align: center;
   font-size: 90px;
+  font-family: fantasy;
+  color: rgb(0, 166, 255);
+  transition: all 400ms linear;
 }
 #square-effect {
   background-color: gray;
 }
-
 .input-wrapper {
   display: flex;
   justify-content: space-evenly;
@@ -30,9 +37,82 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
-
 input {
   width: 300px;
   text-align: center;
+  background-color: rgb(244, 241, 231);
+  border-color: mistyrose;
+  border-radius: 7px;
 }
-
+.frame {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+button {
+  background-color: rgb(244, 241, 231);
+  border-color:  rgb(255, 182, 174);
+  border-radius: 10px;
+  width: 100px;
+  font-family: cursive;
+  color: rgb(0, 166, 255);
+  font-weight: bold;
+  text-align: center;
+}
+.player1{
+  font-size: 20px;
+  color: rgb(70, 152, 30);
+  font-family: cursive;
+  font-weight: bold;
+  transition: all 600ms linear;
+}
+.player2{
+  font-size: 20px;
+  color: red;
+  font-family: cursive;
+  font-weight: bold;
+  transition: all 600ms linear;
+}
+.score-name1 {
+  font-size: 40px;
+}
+.score-name2 {
+  font-size: 40px;
+}
+.turn {
+  font-size: 20px;
+  color: mistyrose;
+  font-family: cursive;
+  font-weight: bold;
+  transition: all 400ms linear;
+}
+.message-user {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 20px;
+  transition: all 500ms linear;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.footer-background {
+  background-color: white;
+  border-radius: 100px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(244, 241, 231);
+  transition: all 500ms linear;
+}
+footer {
+  font-family: cursive;
+  text-align: center;
+  color: rgba(169, 184, 184, 0.577);
+  margin-top: 15px;
+  transition: all 500ms linear;
+}
+footer span {
+  color: rgba(0, 166, 255, 0.598);
+}
+footer strong {
+  color: rgba(0, 0, 0, 0.609);
+  
+}
