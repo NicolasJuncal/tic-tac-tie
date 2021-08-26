@@ -47,35 +47,35 @@ function winnerCheck(){
 }
 
 function horizontalCheck() {
-	for( var i = 0; i < 7; i += 3) {
+	for (var i = 0; i < 7; i += 3) {
 		if (crossPositions[i] == 'X' && crossPositions[i + 1] == 'X' && crossPositions[i + 2] == 'X') { 
 			alert ( 'X' + ' wins!!!');
       scoreName1 = scoreName1 + 1;
       score1.textContent = scoreName1;
-      resetGame();
+      
 		}
 		if (crossPositions[i] == 'O' && crossPositions[i + 1] == 'O' && crossPositions[i + 2] == 'O') {
 		  alert ('O' + ' wins!!!');
       scoreName2 = scoreName2 + 1;
       score2.textContent = scoreName2;
-      resetGame();
+     
 		}
 	}
 }
 
 function columnCheck() {
-	for( var i = 0; i < 3; i++) {
+	for (var i = 0; i < 3; i++) {
 		if (crossPositions[i] == 'X' && crossPositions[i + 3] == 'X' && crossPositions[i + 6] == 'X') { 
 			alert ('X' + ' wins!!!');
       scoreName1 = scoreName1 + 1;
       score1.textContent = scoreName1;
-      resetGame();
+     
 		}
 		if (crossPositions[i] == 'O' && crossPositions[i + 3] == 'O' && crossPositions[i + 6] == 'O') {
 			alert ('O' + ' wins!!!');
       scoreName2 = scoreName2 + 1;
       score2.textContent = scoreName2;
-      resetGame();
+      
 		}
 	}
 }
@@ -85,18 +85,18 @@ function diagonalCheck() {
 		alert ('X' + ' wins!!!');
     scoreName1 = scoreName1 + 1;
     score1.textContent = scoreName1;
-    resetGame();
+   
 	}else if ( (crossPositions[0] == 'O' && crossPositions[4] == 'O' && crossPositions[8] == 'O') || (crossPositions[2] == 'O' && crossPositions[4] == 'O' && crossPositions[6] == 'O') ) {
 	  alert ('O' + ' wins!!!');
     scoreName2 = scoreName2 + 1;
     score2.textContent = scoreName2;
-    resetGame();
+   
 	} 
 }
 function gameDraw(){
   if (whichPlayer === 9) {
     alert('Game is draw');
-    resetGame();
+   
   }
 }
 
