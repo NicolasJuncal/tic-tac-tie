@@ -1,7 +1,7 @@
 # tic-tac-tie
 <body>
 <header>
-Creation of a Tic-Tac-Toe game with two users interaction.
+Creation of a Tic-Tac-Toe game with two users interactions.
 </header>
   <a href="https://nicolasjuncal.github.io/tic-tac-tie/">https://nicolasjuncal.github.io/tic-tac-tie/ </a>
 <section>
