@@ -3,7 +3,8 @@
 <header>
 Creation of a Tic-Tac-Toe game with two users interaction.
 </header>
-<section>
+  <a href="https://nicolasjuncal.github.io/tic-tac-tie/">
+<section>  
 <p class="tic-tac-toe-html>
 The utilization of HTML was mainly to create a visual interation with the users and separate the content in order to make sense and be organised. Giving classes and IDs to particular tags and DOM manipulation was part essential to make it work.
 </p>
@@ -15,7 +16,7 @@ CSS gives all the style to the page, including elements position. It is what giv
 </p>
 <p>
 How to install.<br>
-Clone the entire repository into your computer and open the index.html with your browser. More instruction how to clone a repository on GitHub website.
+Clone the entire repository into your computer and open the index.html with your browser. If you are facing any glitches with the link abobe. More instruction how to clone a repository on GitHub website.
 </p>
 </section>
 
