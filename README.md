@@ -3,7 +3,7 @@
 <header>
 Creation of a Tic-Tac-Toe game with two users interaction.
 </header>
-  <a href="https://nicolasjuncal.github.io/tic-tac-tie/">
+  <a href="https://nicolasjuncal.github.io/tic-tac-tie/">https://nicolasjuncal.github.io/tic-tac-tie/ </a>
 <section>  
 <p class="tic-tac-toe-html>
 The utilization of HTML was mainly to create a visual interation with the users and separate the content in order to make sense and be organised. Giving classes and IDs to particular tags and DOM manipulation was part essential to make it work.
