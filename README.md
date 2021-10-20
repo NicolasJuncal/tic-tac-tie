@@ -19,7 +19,7 @@ Creation of a Tic-Tac-Toe game with two users interactions.
 The utilization of HTML was mainly to create a visual interation with the users and separate the content in order to make sense and be organised. Giving classes and IDs to particular tags and DOM manipulation was part essential to make it work.
 </p>
 <p class="tic-tac-toe-javascript>
-Javascript, JQuery, CSS, HTML.
+Javascript, DOM Manipulation, CSS, HTML.
 </p>
 <p class="tic-tac-toe-css">
 CSS gives all the style to the page, including elements position. It is what gives shapes to HTML and what mostly interacts with DOM.
