@@ -10,7 +10,7 @@ Creation of a Tic-Tac-Toe game with two users interactions.
  <p> - Player 1 plays with 'X' and Player 2 plays with 'O'</p>
  <p>- Whoever gets a three consecutive symbol X or O in sequence wins the round.</p>
  <p> - If none of players achieve three consecutive symbols in sequence till the end of the game it is a draw.</p>
- <p> If it doesn't make sense you can find more information about the rules on the below link:
+ <p> More information about the rules on the below link:
  <p> <a href="https://en.wikipedia.org/wiki/Tic-tac-toe">https://en.wikipedia.org/wiki/Tic-tac-toe</a></p>
 </section>
   
@@ -19,15 +19,12 @@ Creation of a Tic-Tac-Toe game with two users interactions.
 The utilization of HTML was mainly to create a visual interation with the users and separate the content in order to make sense and be organised. Giving classes and IDs to particular tags and DOM manipulation was part essential to make it work.
 </p>
 <p class="tic-tac-toe-javascript>
-Javascript gives the logical aspects to the game and most of the interactions with DOM manipulation and CSS.
+Javascript, JQuery, CSS, HTML.
 </p>
 <p class="tic-tac-toe-css">
 CSS gives all the style to the page, including elements position. It is what gives shapes to HTML and what mostly interacts with DOM.
 </p>
 <p>
-How to install.<br>
-Clone the entire repository into your computer and open the index.html with your browser. If you are facing any glitches with the link abobe. More instruction how to clone a repository on GitHub website.
-</p>
 </section>
 
 
