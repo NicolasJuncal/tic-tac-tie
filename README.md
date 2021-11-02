@@ -1,7 +1,8 @@
 # tic-tac-tie
 <body>
 <header>
-Creation of a Tic-Tac-Toe game with two users interactions.
+Web app game:
+ A simple Tic-Tac-Toe game with two users interactions, my first project in JS.
 </header>
   <a href="https://nicolasjuncal.github.io/tic-tac-tie/">https://nicolasjuncal.github.io/tic-tac-tie/ </a>
 <section>
@@ -21,6 +22,7 @@ The utilization of HTML was mainly to create a visual interation with the users 
 <p class="tic-tac-toe-javascript>
 Javascript, DOM Manipulation, CSS, HTML.
 </p>
+![tic-tac-toe](https://user-images.githubusercontent.com/88309853/139786326-54323521-c68a-47ff-90b0-c01daaf547f8.gif)
 
 </section>
 
