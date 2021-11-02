@@ -22,9 +22,8 @@ The utilization of HTML was mainly to create a visual interation with the users 
 <p class="tic-tac-toe-javascript>
 Javascript, DOM Manipulation, CSS, HTML.
 </p>
+ 
 ![tic-tac-toe](https://user-images.githubusercontent.com/88309853/139786326-54323521-c68a-47ff-90b0-c01daaf547f8.gif)
-
-</section>
 
 
 </body>
