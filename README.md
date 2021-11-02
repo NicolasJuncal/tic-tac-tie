@@ -1,4 +1,4 @@
-# tic-tac-tie
+# Tic-tac-toe
 <body>
 <header>
 Web app game:
