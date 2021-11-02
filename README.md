@@ -3,6 +3,9 @@
 <header>
 Web app game:
  A simple Tic-Tac-Toe game with two users interactions, my first project in JS.
+ You can play on the below link
+ 
+ Note: I'm aware that it is not responsive in mobile phone screens, for now try on desktop.
 </header>
   <a href="https://nicolasjuncal.github.io/tic-tac-tie/">https://nicolasjuncal.github.io/tic-tac-tie/ </a>
 <section>
