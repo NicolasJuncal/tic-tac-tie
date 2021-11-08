@@ -127,7 +127,7 @@ footer strong {
 }
 @media all and (max-device-width: 500px){
   .box {
-    font-size: 5rem;
+    font-size: 2rem;
   }
   .wrap-everything {
     width: 100%;
