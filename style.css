@@ -14,14 +14,15 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 0 auto;
+  gap: 0.2rem;
 }
 .box {
-  width: 100px;
-  height: 100px;
+  width: 6rem;
+  height: 6rem;
   background-color: rgb(244, 241, 231);
-  border: 1px rgb(255, 182, 174) solid;
+  border: 0.1rem rgb(255, 182, 174) solid;
   text-align: center;
-  font-size: 90px;
+  font-size: 5rem;
   font-family: fantasy;
   color: rgb(0, 166, 255);
   transition: all 400ms linear;
@@ -32,13 +33,15 @@ body {
 .input-wrapper {
   display: flex;
   justify-content: space-evenly;
+  width: 100%;
 }
 .player-info {
   display: flex;
   justify-content: space-evenly;
+  width: 100%;
 }
 input {
-  width: 300px;
+  width: 25rem;
   text-align: center;
   background-color: rgb(244, 241, 231);
   border-color: mistyrose;
@@ -60,39 +63,43 @@ button {
   text-align: center;
 }
 .player1{
-  font-size: 20px;
+  font-size: 2rem;
   color: rgb(70, 152, 30);
   font-family: cursive;
   font-weight: bold;
   transition: all 600ms linear;
 }
 .player2{
-  font-size: 20px;
+  font-size: 2rem;
   color: red;
   font-family: cursive;
   font-weight: bold;
   transition: all 600ms linear;
 }
 .score-name1 {
-  font-size: 40px;
+  font-size: 2.5rem;
+  width: 100%;
 }
 .score-name2 {
-  font-size: 40px;
+  font-size: 2.5rem;
+  width: 100%;
 }
 .turn {
-  font-size: 20px;
+  font-size: 3rem;
   color: mistyrose;
   font-family: cursive;
   font-weight: bold;
   transition: all 400ms linear;
+  width: 100%;
 }
 .message-user {
   font-family: cursive;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 2rem;
   transition: all 500ms linear;
   padding-top: 18px;
   padding-bottom: 18px;
+  width: 100%;
 }
 .footer-background {
   background-color: white;
@@ -101,6 +108,7 @@ button {
   margin: 0 auto;
   background-color: rgb(244, 241, 231);
   transition: all 500ms linear;
+  width: 100%;
 }
 footer {
   font-family: cursive;
@@ -108,6 +116,7 @@ footer {
   color: rgba(169, 184, 184, 0.577);
   margin-top: 15px;
   transition: all 500ms linear;
+  width: 100%;
 }
 footer span {
   color: rgba(0, 166, 255, 0.598);
@@ -116,3 +125,25 @@ footer strong {
   color: rgba(0, 0, 0, 0.609);
   
 }
+@media all and (max-device-width: 500px){
+  .box {
+    font-size: 5rem;
+  }
+  .wrap-everything {
+    width: 100%;
+  } 
+  input {
+    width: 7rem;
+  }
+  .player1 {
+    font-size: 1rem;
+  }
+  .player2 {
+    font-size: 1rem;
+  }
+  .turn {
+    font-size: 1rem;
+  }
+}
+
+
